@@ -3,7 +3,10 @@
 Project Overview
 Objective: To develop an AI-powered agent that assesses a company's true value by integrating traditional financial data with modern Environmental, Social, and Governance (ESG) metrics.
 
-Methodology: The project evolved through three key phases: 1) The development of a robust Integrated Value Scorecard to rank companies holistically, 2) The creation of an Interactive Dashboard for data analysis, and 3) The construction of a Predictive Machine Learning Model to forecast future stock performance based on the calculated scores.
+Methodology: The project evolved through three key phases: 
+1) The development of a robust Integrated Value Scorecard to rank companies holistically.
+2) The creation of an Interactive Dashboard for data analysis. 
+3) The construction of a Predictive Machine Learning Model to forecast future stock performance based on the calculated scores.
 
 Key Result: The final predictive model achieved 59.34% accuracy in forecasting 6-month stock outperformance against the S&P 500, demonstrating that while financial momentum is the primary driver, ESG factors provide a statistically significant predictive edge.
 
@@ -36,7 +39,8 @@ Calculating a score for each of the three dimensions: Financial_Score, Environme
 Combining these into a final score using a weighted average (50% Financial, 25% Environmental, 25% Social).
 
 Phase 3: The Predictive Engine
-The final step was to test the core thesis: "Does a high Integrated Value Score lead to better returns?" I built a predictive engine using a Random Forest Classifier.
+The final step was to test the core thesis: "Does a high Integrated Value Score lead to better returns?"
+I built a predictive engine using a Random Forest Classifier.
 
 Features: Financial_Score_Proxy, Environmental_Score, Social_Score.
 
@@ -67,7 +71,5 @@ This key insight shows that while financial momentum is the primary driver, ESG 
 
 Technical Stack
 Language: Python
-
 Libraries: Pandas, NumPy, Scikit-learn, yfinance, Matplotlib, Ipywidgets
-
 Environment: Google Colab
